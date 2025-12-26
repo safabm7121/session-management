@@ -1,20 +1,10 @@
 import { Router } from "express";
-import {
-  list,
-  get,
-  create,
-  update,
-  changePassword,
-  remove,
-} from "../controllers/userController.js";
+import * as UserController from "../controllers/userController.js";
+import { requireAuth } from "../auth/authMiddleware.js";
 
 const router = Router();
-
-router.get("/", list);
-router.get("/:id", get);
-router.post("/", create);
-router.put("/:id", update);
-router.put("/:id/password", changePassword);
-router.delete("/:id", remove);
+router.get("/", requireAuth, UserController.getAllUsers);
+router.get("/:id", requireAuth, UserController.getUserById);
+router.delete("/:id", requireAuth, UserController.deleteUser);
 
 export default router;

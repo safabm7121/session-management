@@ -1,4 +1,11 @@
 {
-  "users": [],
-  "nextId": 1
+  "realms": [
+    {
+      "id": 1,
+      "name": "default",
+      "nextUserId": 1,
+      "users": []
+    }
+  ],
+  "nextRealmId": 2
 }

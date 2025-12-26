@@ -1,0 +1,45 @@
+{
+  "authUsers": [
+    {
+      "email": "test@example.com",
+      "passwordHash": "$2b$10$xe0/3uglQ4e/rtmbjMUW1uXHpa2m06xbg2ps6FVF3o6KkAn3QaF76",
+      "name": "Test User",
+      "roles": [
+        "user"
+      ],
+      "id": 1,
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaWF0IjoxNzY2NjkyMzkzLCJleHAiOjE3NjcyOTcxOTN9.n6km_vYDfMtDMVwCnqUUyDu93uWs8KUyZlAh22pjGWo",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaWF0IjoxNzY2NjkzODI1LCJleHAiOjE3NjcyOTg2MjV9.XJ2ypxeGfGQez0IMw72NBpFnkDACmlixMmatnGf1T7w",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaWF0IjoxNzY2Njk0MTQzLCJleHAiOjE3NjcyOTg5NDN9.5fr6qLlejIR0TpOWVvH5At2fzCAr_Nhpsl7LTQWgmF4"
+      ],
+      "isActive": true
+    },
+    {
+      "email": "newuser@example.com",
+      "passwordHash": "$2b$10$5/xvrlM.ZWKyecVMUyTaBeAashJlPzL1JWN.qaDumJQMP.rJhbSb.",
+      "name": "New User",
+      "roles": [
+        "user"
+      ],
+      "id": 2,
+      "refreshTokens": [
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzY2NjkzMzM4LCJleHAiOjE3NjcyOTgxMzh9.qtAyHwIfXYv51OXf-n26MXgZVGXqdsf3Nc5jJOY698U",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzY2NjkzMzc2LCJleHAiOjE3NjcyOTgxNzZ9.P9I0awQl5nR4QOvCsyWtevcasu6J8CQJFs_jkX54IaU"
+      ],
+      "isActive": true
+    },
+    {
+      "email": "testa@example.com",
+      "passwordHash": "$2b$10$5PUWi/dQANem8hwh4cBgjuvI0NRrb6frprcUk6hzMp4LdE3.9MnUS",
+      "name": "Testa User",
+      "roles": [
+        "user"
+      ],
+      "id": 3,
+      "refreshTokens": [],
+      "isActive": true
+    }
+  ],
+  "nextId": 4
+}
